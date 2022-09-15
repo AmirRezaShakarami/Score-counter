@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url("sports-tools.jpg");
+    background-size: cover ;
+    height: 100vh;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+}
+
+.container {
+    height: min-content ;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 30px 0;
+    padding: 30px;
+    border-radius: 10%;
+    box-shadow: 0 0 20px black;
+    text-shadow: 0 0 20px black;
+}
+#teamA-container {
+    background-color: rgba(225, 0, 0, 0.600);
+}
+
+#teamB-container {
+    background-color: rgba(0, 0, 225, 0.600);
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.increment-btn {
+    font-family: 'Poppins', sans-serif;
+    background: green;
+    text-shadow: 0 0 4px black;
+}
+
+.save-btn {
+    font-family: 'Poppins', sans-serif;
+    background: orange;
+    text-shadow: 0 0 4px black;
+}
+
+.increment-btn:hover {
+    background-color: darkgreen;
+}
+
+.save-btn:hover {
+    background-color: darkorange;
+}
